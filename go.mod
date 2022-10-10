@@ -1,13 +1,6 @@
-module github.com/dsoprea/go-jpeg-image-structure
+module github.com/neurosnap/go-jpeg-image-structure
 
 go 1.13
-
-// Development only
-// replace github.com/dsoprea/go-utility => ../go-utility
-// replace github.com/dsoprea/go-logging => ../go-logging
-// replace github.com/dsoprea/go-exif/v2 => ../go-exif/v2
-// replace github.com/dsoprea/go-photoshop-info-format => ../go-photoshop-info-format
-// replace github.com/dsoprea/go-iptc => ../go-iptc
 
 require (
 	github.com/dsoprea/go-exif/v2 v2.0.0-20200604193436-ca8584a0e1c4
